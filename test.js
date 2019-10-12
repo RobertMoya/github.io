@@ -8,8 +8,8 @@ button.onclick= function (){
 };
 
 button1.onclick= function (){
-    location.replace("https://www.linkedin.com/in/robert-moya/");
+    window.location.href=("https://www.linkedin.com/in/robert-moya/");
 };
 button2.onclick= function (){
-    location.replace("https://github.com/RobertMoya");
+    window.location.href=("https://github.com/RobertMoya");
 };
