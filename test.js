@@ -4,7 +4,7 @@ var button1 = document.getElementById("Linkedin");
 var button2 = document.getElementById("Github");
 
 button.onclick= function (){
-    
+    location.replace("google.com");  
 };
 
 button1.onclick= function (){
