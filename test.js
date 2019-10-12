@@ -1,15 +1,15 @@
 var content = document.getElementById("container");
-var button = document.getElementById("about me");
-var button1 = document.getElementById("Linkedin");
-var button2 = document.getElementById("Github");
+var button1 = document.getElementById("about me");
+var button2 = document.getElementById("Linkedin");
+var button3 = document.getElementById("Github");
 
-button.onclick= function (){
+button1.onclick= function (){
     document.getElementById("about me").innerHTML = window.location.href("google.com");  
 };
 
-button1.onclick= function (){
+button2.onclick= function (){
     document.getElementById("Linkedin").innerHTML= window.location.href=("https://www.linkedin.com/in/robert-moya/");
 };
-button2.onclick= function (){
+button3.onclick= function (){
     document.getElementById("Github").innerHTML = window.location.href=("https://github.com/RobertMoya");
 };
