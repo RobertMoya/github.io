@@ -1,9 +1,9 @@
 var content = document.getElementById("container");
-var button1 = document.getElementById("about me");
+var button1 = document.getElementById("about me")=function(){myFunction()};
 var button2 = document.getElementById("Linkedin");
 var button3 = document.getElementById("Github");
 
-button1.onclick= function (){
+function myFunction (){
     document.getElementById("about me").innerHTML = window.location.href("google.com");  
 };
 
