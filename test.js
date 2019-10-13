@@ -1,5 +1,5 @@
 var content = document.getElementById("container");
-var button1 = document.getElementById("about me")=function(){myFunction()};
+document.getElementById("about me")=function(){myFunction()};
 var button2 = document.getElementById("Linkedin");
 var button3 = document.getElementById("Github");
 
