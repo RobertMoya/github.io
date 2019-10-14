@@ -1,10 +1,11 @@
+console.log("js is working");
 var content = document.getElementById("container");
 document.getElementById("about me")=function(){myFunction()};
 var button2 = document.getElementById("Linkedin");
 var button3 = document.getElementById("Github");
 
 function myFunction (){
-    document.getElementById("about me").innerHTML = window.location.href("google.com");  
+     window.location.href("google.com");  
 };
 
 button2.onclick= function (){
