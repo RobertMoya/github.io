@@ -115,19 +115,65 @@ input, select {
     background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
     border: 2px solid rgb(28, 110, 164); 
-    display: inline-block;}
+    display: inline-block;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
 
-.btn1:hover {
-    background: #1C6EA4; }
-.btn1:active {
-    background: #144E75; }
-    
-.btn2:hover {
-    background: #1C6EA4; }
-.btn2:active {
-    background: #144E75; }
+body {
+  margin: 0;
+}
 
-.btn3:hover {
-    background: #1C6EA4; }
-.btn3:active {
-    background: #144E75; }
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
