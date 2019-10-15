@@ -101,7 +101,9 @@ input, select {
     vertical-align:middle;
 }
 
-
+*{
+    box-sizing:border-box;
+}
 .body{
     margin:0;
 }
