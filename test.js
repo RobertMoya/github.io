@@ -16,6 +16,6 @@
   //  document.getElementById("Github").innerHTML = window.location.href=("https://github.com/RobertMoya");
 //};
 
-function aboutMeFunction(){
-    window.location.assign("www.google.com")
-}
+//function aboutMeFunction(){
+ //   window.location.assign("www.google.com")
+//}
