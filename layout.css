@@ -117,17 +117,17 @@ input, select {
     border: 2px solid rgb(28, 110, 164); 
     display: inline-block;}
 
-.btn:hover {
-    background: #1C6EA4; }
-.btn:active {
-    background: #144E75; }
-    
 .btn1:hover {
     background: #1C6EA4; }
 .btn1:active {
     background: #144E75; }
-
+    
 .btn2:hover {
     background: #1C6EA4; }
 .btn2:active {
+    background: #144E75; }
+
+.btn3:hover {
+    background: #1C6EA4; }
+.btn3:active {
     background: #144E75; }
