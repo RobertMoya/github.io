@@ -18,4 +18,4 @@
 
 //function aboutMeFunction(){
  //   window.location.assign("www.google.com")
-//}
+//} nothing full time
