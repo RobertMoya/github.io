@@ -109,7 +109,7 @@ input, select {
 }
 /* Style the header */
 .header {
-  background-color: #7e9a9a;
+  background-color: #495c5c;
   padding: 20px;
   text-align: center;
   font-size:32px;
@@ -142,7 +142,7 @@ input, select {
   float: left;
   width: 33.33%;
   padding: 15px;
-  background-color: rgb(90, 164, 214);
+  color: rgb(90, 164, 214);
 }
 
 /* Clear floats after the columns */
@@ -150,7 +150,7 @@ input, select {
   content: "";
   display: table;
   clear: both;
-  background-color: rgb(90, 164, 214);
+  color: rgb(90, 164, 214);
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
