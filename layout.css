@@ -109,7 +109,7 @@ input, select {
 }
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
+  background-color: #7e9a9a;
   padding: 20px;
   text-align: center;
   font-size:32px;
@@ -142,6 +142,7 @@ input, select {
   float: left;
   width: 33.33%;
   padding: 15px;
+  background-color: rgb(90, 164, 214);
 }
 
 /* Clear floats after the columns */
