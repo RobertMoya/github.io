@@ -106,6 +106,7 @@ input, select {
 }
 .body{
     margin:0;
+    background-color:lightblue;
 }
 /* Style the header */
 .header {
@@ -113,7 +114,9 @@ input, select {
   padding: 20px;
   text-align: center;
   font-size:32px;
+
 }
+
 
 /* Style the top navigation bar */
 .topnav {
