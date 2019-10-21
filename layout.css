@@ -152,6 +152,7 @@ input, select {
 .row:after {
   content: "";
   display: table;
+  color: dimgray;
   clear: both;
   
 }
